@@ -1,0 +1,46 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+.ipynb_checkpoints/
+
+# IMF reports — local reference material
+references/
+
+# Original course data — private by default
+MacroData*.xls
+MacroData*.xlsx
+data/*.xls
+data/*.xlsx
+data/*.csv
+
+# Keep explanatory README files
+!data/README.md
+
+# Draft academic documents
+*.docx
+*.pdf
+!docs/Academic_Report_Q6-Q9.pdf
